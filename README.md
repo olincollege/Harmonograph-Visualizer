@@ -15,10 +15,10 @@ More information about the physical system can be found here:
 
 ## How to Run The Program
 Pull the files:
-    -pendulum.py
-    -plotting.py
-    -controler.py
-    -main_visualizer.ipynb
-Open the main_visualizer file ina jupyter notebook and run the cells.  You
-will be propted for imput and the plots will show below as well as saving as
+    - pendulum.py
+    - plotting.py
+    - controler.py
+    - main_visualizer.ipynb
+Open the main_visualizer file in a jupyter notebook and run the cells.  You
+will be propted for input, and the plots will show below as well as saving as
 svg files.
