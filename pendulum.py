@@ -58,12 +58,28 @@ class Pendulum:
         """
         self.damping_constant = 0
 
-    def draw_1pendulum(self):
+    def draw_1pendulum(self, filename):
         """
         Used to visualize the motion of a single pendulum in order to make sure
-        that the damping is working as expected.
+        that the damping is working as expected. Saves the resulting plot as a
+        JPG with the name filename
+
+        args:
+            filename: str, the name that the user wants the file to be saved as
         """
+        plt.figure(figsize= (20, 20), frameon=False)
+        plt.title("Amplitude over Time of a Single Pendulum", fontsize = 50)
+    
+        plt.xlabel("Time", fontsize = 30)
+        plt.ylabel("Amplitude", fontsize = 30)
+
+
+        plt.tick_params(left = False, right = False , labelleft = False ,
+                labelbottom = False, bottom = False)
+
+        self.update_pendulum()
         plt.plot(self.pendulum)
+        plt.savefig(f"{str(filename)}.jpg")
 
     def read(self):
         """

@@ -19,9 +19,9 @@ class TextController():
             "B":493.88
         }
         note = input(
-                "What note would you like to set the pendulum to:\
-                Choose(C, Cs, D, Ds, E, F, Fs, G, Gs, A, As, B) \
-                or a custom number for frequency"
+                f"What note would you like to set the pendulum to: " \
+                f"Choose(C, Cs, D, Ds, E, F, Fs, G, Gs, A, As, B) " \
+                f"or a custom number for frequency"
             )
         try:
             if note in [

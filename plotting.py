@@ -53,9 +53,10 @@ class HarmonographView():
         self.update_all_pendulums() #updates all pendulums
 
 
-        plt.figure(figsize= (15, 15), frameon=False)
-        plt.title("Randomly Seeded Harmonograph Drawing with Selected \
-            Frequencies")
+        plt.figure(figsize= (10, 10), frameon=False)
+        plt.title(
+            f"Randomly Seeded Harmonograph Drawing with Selected Frequencies"
+            )
         labels = f"Choosen Frequencies: "\
             f"Pendulum_X1={round(self.pendulum1x.frequency, 2)}  "\
             f"Pendulum_X2={round(self.pendulum2x.frequency, 2)}  "\
