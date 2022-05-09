@@ -1,5 +1,6 @@
 # Harmonograph-Visualizer
 Visualizing the line art produced by harmonographs.
+- [Video Presentation](https://youtu.be/Ai1P5i9qJEY)
 
 ## Introduction
 My program simulates the output from a three pendulum rotary harmonograph
